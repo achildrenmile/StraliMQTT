@@ -1,0 +1,162 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\cores\\arduino"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\variants\\MXChip_AZ3166"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Michi\\OneDrive - Strali Solutions e.U\\02_Ideas\\04_AzureIoT\\projects\\Strali MQTT\\.build\\sketch\\MQTTClient.ino.cpp",
+    "Include": "AZ3166WiFi.h",
+    "Includepath": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\WiFi\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Michi\\OneDrive - Strali Solutions e.U\\02_Ideas\\04_AzureIoT\\projects\\Strali MQTT\\.build\\sketch\\MQTTClient.ino.cpp",
+    "Include": "MQTTClient.h",
+    "Includepath": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\MQTT\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Michi\\OneDrive - Strali Solutions e.U\\02_Ideas\\04_AzureIoT\\projects\\Strali MQTT\\.build\\sketch\\MQTTClient.ino.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "c:\\Users\\Michi\\OneDrive - Strali Solutions e.U\\02_Ideas\\04_AzureIoT\\projects\\Strali MQTT\\.build\\sketch\\utility.cpp",
+    "Include": "HTS221Sensor.h",
+    "Includepath": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\Sensors\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Michi\\OneDrive - Strali Solutions e.U\\02_Ideas\\04_AzureIoT\\projects\\Strali MQTT\\.build\\sketch\\utility.cpp",
+    "Include": "AzureIotHub.h",
+    "Includepath": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\AzureIoT\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\Michi\\OneDrive - Strali Solutions e.U\\02_Ideas\\04_AzureIoT\\projects\\Strali MQTT\\.build\\sketch\\utility.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\WiFi\\src\\AZ3166WiFi.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\WiFi\\src\\AZ3166WiFiClient.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\WiFi\\src\\AZ3166WiFiServer.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\WiFi\\src\\AZ3166WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\MQTT\\src\\MQTTPacket\\MQTTConnectClient.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\MQTT\\src\\MQTTPacket\\MQTTConnectServer.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\MQTT\\src\\MQTTPacket\\MQTTDeserializePublish.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\MQTT\\src\\MQTTPacket\\MQTTPacket.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\MQTT\\src\\MQTTPacket\\MQTTSerializePublish.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\MQTT\\src\\MQTTPacket\\MQTTSubscribeClient.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\MQTT\\src\\MQTTPacket\\MQTTSubscribeServer.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\MQTT\\src\\MQTTPacket\\MQTTUnsubscribeClient.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\MQTT\\src\\MQTTPacket\\MQTTUnsubscribeServer.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\Sensors\\src\\HTS221Sensor.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\Sensors\\src\\IrDASensor.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\Sensors\\src\\LIS2MDLSensor.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\Sensors\\src\\LPS22HBSensor.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\Sensors\\src\\LSM6DSLSensor.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\Sensors\\src\\RGB_LED.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\Sensors\\src\\utility\\HTS221_driver.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\Sensors\\src\\utility\\LPS22HB_driver.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\Sensors\\src\\utility\\LSM6DSL_acc_gyro_driver.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\AzureIoT\\src\\AzureIotHub.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\Michi\\AppData\\Local\\Arduino15\\packages\\AZ3166\\hardware\\stm32f4\\1.2.2\\libraries\\AzureIoT\\src\\DevKitMQTTClient.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]

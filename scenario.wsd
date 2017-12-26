@@ -1,0 +1,59 @@
+@startuml
+rectangle CloudProvider {
+        interface TCP_1883 #Yellow
+        interface TCP_1884 #LightGreen
+        interface TCP_3033 #LightBlue
+        interface TCP_8033 #LightSteelBlue
+    node Server {
+        
+        component MQTTBroker
+    
+        }
+}
+
+cloud Internet
+cloud Internet2 as "Internet"
+
+TCP_1883 ---> MQTTBroker
+TCP_1884 --> MQTTBroker
+TCP_3033 --> MQTTBroker
+TCP_8033 --> MQTTBroker
+MQTTBroker --> TCP_1883
+
+node MXDevKit {
+    component MQTTClient
+    component Wifi
+    component TemperatureSensor
+    component HumiditySensor
+    component OLEDDisplay
+
+    TemperatureSensor --> MQTTClient
+    HumiditySensor --> MQTTClient
+    MQTTClient <--> Wifi
+    Wifi --> Internet
+    Internet --> TCP_1883
+    TCP_1883 --> Internet
+    Internet --> Wifi
+
+}
+
+node Android {
+    component MQTTDash {
+        component mxtest_Subscription
+        mxtest_Subscription --right-> Internet2
+        Internet2 --> TCP_1883
+        Internet2 --> mxtest_Subscription
+        TCP_1883 --> Internet2
+    }
+}
+
+rectangle Legend {
+    interface "Unsecured MQTT" #Yellow
+    interface "Secured MQTT (TLS)" #LightGreen
+    interface "Unsecured\n WebSockets MQTT" #LightBlue
+    interface "Secured MQTT (TLS)\n WebSockets MQTT" #LightSteelBlue
+}
+
+CloudProvider -[#transparent]-> Legend
+
+@enduml
