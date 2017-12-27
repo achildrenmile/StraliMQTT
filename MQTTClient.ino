@@ -9,7 +9,7 @@ int arrivedcount = 0;
 bool hasWifi = false;
 int messageCount=1;
 
-const char* mqttServer = "mqtt.platformsolutions.eu";//"iot.eclipse.org";   //"m2m.eclipse.org";
+const char* mqttServer = "iot.eclipse.org";   //"m2m.eclipse.org";
 int port = 1883;
 
 void initWifi()
